@@ -1,0 +1,8 @@
+{  
+    "products": [  
+        {"id": 1, "name": "Assorted Coffee", "image": "/assets/coffee-asorted.jpg", "price": 35,"stock": 150,   "onSale": true, "description": "A delightful assortment of coffee."},  
+        {"id": 2, "name": "Hand Sanitizer", "image": "/assets/edible-oil.jpg", "price": 15,"stock": 20,   "onSale": true, "description": "Effective hand sanitizer."},  
+        {"id": 3, "name": "Handpicked Red Chillies", "image": "/assets/orage-juice-kariz.jpg", "price": 19,"stock": 40,   "onSale": true, "description": "Fresh and spicy red chillies."},  
+        {"id": 4, "name": "Natural Extracted Edible Oil", "image": "/assets/sanitizer.jpg", "price": 35,"stock": 100,   "onSale": true, "description": "Pure edible oil extracted naturally."}  
+    ]  
+}

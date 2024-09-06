@@ -1,0 +1,108 @@
+:root {
+  --lime:rgb(107, 237, 107);
+  --Green: #27ae60;
+  --Brown: #8B4513; /* Define a variable for brown color */
+  --FontSizeSmall: 18px;
+  --FontSizeMedium: 22px;
+  --FontSizeLarge: 24px;
+}
+
+#li {
+  margin: 5px 15px;
+  color: black;
+  text-decoration: none;
+  font-size: var(--FontSizeMedium);
+}
+
+.main-home {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--Brown);
+}
+
+.home {
+  width: 90%;
+  margin: auto;
+}
+
+.home .col-md-6 h1 {
+  font-size: 4rem;
+}
+
+.home .col-md-6 h3 {
+  font-size: 2rem; /* Adjusted font size for h3 */
+}
+
+.home .col-md-6 button {
+  padding: 10px 30px;
+  font-size: var(--FontSizeSmall);
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: var(--Green);
+  border: none; /* Ensure button styling is consistent */
+  cursor: pointer; /* Add a pointer cursor for better UX */
+}
+
+.content{
+  height: auto;
+}
+.content .card{
+  background-color: blue;
+}
+.content .card #icon{
+    font-size: 3rem;
+    color: var(--lime);
+}
+
+.rating {  
+  display: flex;  
+  justify-content: center;  
+  margin: 10px 0;  
+}  
+
+.star {  
+  font-size: 1.2em;  
+  color: #5d5d5a; /* Default star color */  
+  margin: 0 2px;  
+}  
+
+.star.filled {  
+  color: gold; /* Color for filled stars */  
+}
+
+
+
+@media (max-width: 1000px) {
+  .home .col-md-6 h1 {
+    font-size: 2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .home .col-md-6 h3 {
+    font-size: 1.2rem; /* Adjusted font size for smaller screens */
+  }
+
+  .home .col-md-6 button {
+    padding: 8px 20px; /* Adjusted padding for smaller screens */
+    font-size: var(--FontSizeSmall);
+  }
+}
+@media (max-width: 567px) {
+  .home {
+    width: 100%; /* Full width for very small screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .home .col-md-6 h1 {
+    font-size: 1.5rem; /* Further reduced font size for very small screens */
+  }
+
+  .home .col-md-6 h3 {
+    font-size: 1rem; /* Further reduced font size for very small screens */
+  }
+
+  .home .col-md-6 button {
+    padding: 6px 15px; /* Further adjusted padding for very small screens */
+    font-size: var(--FontSizeSmall);
+  }
+}
